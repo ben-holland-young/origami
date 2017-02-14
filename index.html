@@ -21,18 +21,25 @@
 </head>
 <body>
 
-    <div class="header"></div>
-    <div class="content">
-        <p>name</p>
-        <input v-model="givenName">
-        <p>link</p>
-        <input v-model="givenLink">
-        <button v-on:click="addPiece">Add Piece</button>
+    <!--<div class="header"></div>-->
+    <!--<div class="content">-->
+        <!--<p>name</p>-->
+        <!--<input v-model="givenName">-->
+        <!--<p>link</p>-->
+        <!--<input v-model="givenLink">-->
+        <!--<button v-on:click="addPiece">Add Piece</button>-->
+        <!--<origami-piece v-for="piece in origami" v-bind:origami="piece"></origami-piece>-->
+    
+    
+    <!--</div>-->
+    <!--<div class="footer"></div>-->
+    <div class="app">
+        <navbar></navbar> 
+    
         <origami-piece v-for="piece in origami" v-bind:origami="piece"></origami-piece>
     
     
     </div>
-    <div class="footer"></div>
 
 
 
