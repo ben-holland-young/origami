@@ -1,0 +1,24 @@
+{
+  "name": "origami",
+  "version": "1.0.0",
+  "description": "some origami website",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/ben-holland-young/origami"
+  },
+  "keywords": [
+    "origami"
+  ],
+  "author": "Ben Holland-Young",
+  "license": "ISC"
+}
