@@ -22,7 +22,22 @@
 <body>
 
     <div class="header"></div>
-    <div class="content"></div>
+    <div class="content">
+        <div class="container">
+
+            <button v-on:click="addRandomInt">Add Another random integer</button>
+            <p>max</p>
+            <input v-model="max">
+            <p>min</p>
+            <input v-model="min">
+            <ul v-for="x in array">
+                <li>{{x}}</li>
+                
+            </ul>
+        </div>
+    
+    
+    </div>
     <div class="footer"></div>
 
 
