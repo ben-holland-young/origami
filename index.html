@@ -35,8 +35,9 @@
     <!--<div class="footer"></div>-->
     <div class="app">
         <navbar></navbar> 
-    
-        <origami-piece v-for="piece in origami" v-bind:origami="piece"></origami-piece>
+        <ul id="grid-piece">      
+            <li v-for="piece in origami" ><origami-piece  v-bind:origami="piece"></origami-piece></li>
+        </ul>
     
     
     </div>
