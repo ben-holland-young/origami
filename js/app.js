@@ -8,6 +8,8 @@ Vue.component('origami-piece', {
 var app = new Vue({
   el: '.content',
   data: {
+      givenName: "",
+      givenLink: "",
       origami: [
         {name: 'Inside Reverse Fold', link: 'http://www.origami-resource-center.com/images/101InsideReverse2.jpg'},
         {name: 'Outside Reverse Fold', link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Orisymbol_outside_reverse_fold.svg/500px-Orisymbol_outside_reverse_fold.svg.png'}        
@@ -15,5 +17,11 @@ var app = new Vue({
   },
   
   methods: {
+
+    addPiece: function() {
+        var temp = {name: this.givenName, link: this.givenLink}
+        this.origami.push(temp)
+
+    }
   }
 })
