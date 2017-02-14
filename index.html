@@ -22,7 +22,11 @@
 <body>
 
     <div class="header"></div>
-    <div class="content"></div>
+    <div class="content">
+        <origami-piece v-for="piece in origami" v-bind:origami="piece"></origami-piece>
+    
+    
+    </div>
     <div class="footer"></div>
 
 
